@@ -28,4 +28,6 @@ To generate htmls only, use `$ rake static_pages:precompile`
 
 * Move `static_pages` directory below `app` cause its treated as static assets when its in `app/assets` directory.
 * Override helpers like `stylesheets_include_tag ..etc` to extract CSS/JS inline on production.
+* Availability to use layout for template.
 * Mount static pages path to routes.
+* Error Pages generator.
